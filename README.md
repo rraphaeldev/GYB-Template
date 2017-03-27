@@ -28,6 +28,8 @@ In project's **Build Phases**, add a new `Run script phase`:
 find . -name '*.gyb' | while read file; do <path/to/gyb.py> --line-directive '' -o "${file%.gyb}" "$file"; done
 ```
 
+> **Note:** The script must be executed **before** the `Compile Sources` phase.
+
 > How it works: During the build phase, the script will search all `*.gyb` files, and run the GYB tool to genereate the final `.swift` file.
 
 
