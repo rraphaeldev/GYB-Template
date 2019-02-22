@@ -11,7 +11,7 @@ This template is composed of 2 files:
 # Installation
 
 ## Template
-* Download [GYB Template](https://github.com/RaphaelRO/GYB-Template/archive/master.zip).
+* Download [GYB Template](https://github.com/rraphaeldev/GYB-Template/archive/master.zip).
 * Copy the `Generate Your Boilerplate` folder into `~/Library/Developer/Xcode/Templates/File Templates/`.
 
 ## GYB Tool
